@@ -21,4 +21,6 @@ A knowledge graph stores facts as triples of subject, predicate and object. RDF 
 
 ### Architecture
 
+![Architecture of the Knowledge Graph Generator](architecture.png)
+
 *Figure 1: The client system (the existing institute backend) sends data to the KGG over a REST API. Our planned system has three repositories: kgg-django provides the REST API and stores the data, kgg-core contains the logic for managing and versioning the graph, and kgg-frontend is used by the reviewer. The maintainers run and develop the system. The split into these three repositories is our proposal and still has to be confirmed by the client.*
