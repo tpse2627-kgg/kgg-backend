@@ -1,1 +1,17 @@
 # 4. Legal
+
+## Software License
+
+The software will be published as open source under the MIT License. This means that the entire source code is publicly accessible and may be modified without restriction. The software may be used free of charge for any purpose, including integration into commercial products. The developers assume no liability for damages, errors, or data loss resulting from the use of the software. The original copyright notice of the authors must be retained in all copies or substantial portions of the software.
+
+## Data Confidentiality and Non-Disclosure Agreements
+
+All data provided to the team within the scope of this project are publicly available and are not subject to any confidentiality restrictions. Consequently, no non-disclosure agreement (NDA) applies to this project.
+
+## Communication
+
+Discord serves as the primary communication channel between the client (Chair of Fluid Systems) and the development team. Synchronization meetings between the client and the development team take place every two weeks to discuss current progress, emerging technical challenges, and open questions.
+
+**Primary contact:** __
+
+**Response time:** Inquiries sent to the primary contact or posted on Discord will be reviewed and answered within __ to __ hours on business days.
