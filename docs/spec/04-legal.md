@@ -12,6 +12,6 @@ All data provided to the team within the scope of this project are publicly avai
 
 Discord serves as the primary communication channel between the client (Chair of Fluid Systems) and the development team. Synchronization meetings between the client and the development team take place every two weeks to discuss current progress, emerging technical challenges, and open questions.
 
-**Primary contact:** __
+**Primary contact:** Surkhabjit Singh
 
-**Response time:** Inquiries sent to the primary contact or posted on Discord will be reviewed and answered within __ to __ hours on business days.
+**Response time:** We answer inquiries sent to the primary contact or posted on Discord within one business day where possible, and at the latest within two business days. In return, we ask the client to respond to our inquiries within three business days.
