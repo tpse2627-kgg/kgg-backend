@@ -2,7 +2,7 @@
 
 ### Team member is unavailable for a long time or leaves the team
 
-re**a. Probability:** Low. All team members are committed, and none of them intends to leave. Two members study abroad from February 2027 but keep working remotely, as registered with the course.
+**a. Probability:** Low. All team members are committed, and none of them intends to leave. Two members study abroad from February 2027 but keep working remotely, as registered with the course.
 
 **b. Impact:** The loss of a team member would slow down the project. The most critical case would be the loss of the technically strongest member, since the others would have to acquire this member's knowledge.
 
