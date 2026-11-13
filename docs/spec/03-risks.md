@@ -1,14 +1,14 @@
-# 3. Risks
+## 3. Risks
 
-## Team member is unavailable for a long time or leaves the team
+### Team member is unavailable for a long time or leaves the team
 
-**a. Probability:** Low. All team members are committed, and none of them intends to leave. Since the team works entirely remotely, only two reasons for a long-term absence remain: a member is physically unable to work or leaves the team voluntarily.
+**a. Probability:** Low. All team members are committed, and none of them intends to leave.
 
 **b. Impact:** The loss of a team member would slow down the project. The most critical case would be the loss of the technically strongest member, since the others would have to acquire this member's knowledge.
 
 **c. Mitigation:** Clear documentation, meeting minutes and clearly assigned tasks enable the remaining members to familiarize themselves with the work quickly and to redistribute the tasks. In the case of a long-term or permanent absence, we inform our course supervisor and notify the course organizers.
 
-## Team member (repeatedly) does not keep agreements
+### Team member (repeatedly) does not keep agreements
 
 **a. Probability:** Medium.
 
@@ -16,7 +16,7 @@
 
 **c. Mitigation:** If a team member does not respond on Discord, we contact them via WhatsApp and, if necessary, by phone. If there is no response within one to two days, their task is reassigned and the course supervisor is informed. If a member fails to meet an agreed deadline, a member with more available time takes over, and the member concerned compensates for this later with additional work. If this happens repeatedly, the team reserves the right to ask the course organizers, with justification and evidence, to adjust the distribution of points.
 
-## Resources and their availability
+### Resources and their availability
 
 **a. Probability:** Low. The required resources include a virtual machine, sample data in RDF format and the ontologies.
 
@@ -24,7 +24,7 @@
 
 **c. Mitigation:** If the sample data in RDF format or the ontologies are not provided, we work with small example triples and a publicly available ontology until the client's data arrives. Without a virtual machine, we can still continue our work.
 
-## Client is unavailable or does not keep agreements
+### Client is unavailable or does not keep agreements
 
 **a. Probability:** Medium. The client has already supervised this project twice, but delays in responses or deliveries can still occur.
 
