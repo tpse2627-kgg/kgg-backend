@@ -16,6 +16,6 @@
 
 **Change requests.** Change requests come via the iteration meeting or Discord. We record each one as a GitHub issue with acceptance criteria and estimate it. The client sets its priority, and we plan it into a coming iteration. The minimum scope only changes by mutual agreement, recorded in the minutes.
 
-**Minimum scope.** The client named storing, reading, editing, updating and versioning triples as the main focus. The project is passed when the client's backend can send triples over the REST API, the KGG stores them in a local database, they can be read, edited and updated over the API, and every change is recorded as a version with Linked Data Event Streams (LDES). A reviewer can also accept or reject triples marked as unclear in the web frontend. A graph visualisation and Neo4j compatibility are not required.
+**Minimum scope.** The client named storing, reading, editing, updating and versioning triples as the main focus. The project is passed when the client's backend can send triples over the REST API, the KGG stores them in a local database, they can be read, edited and updated over the API, and every change is recorded as a version with Linked Data Event Streams (LDES). A reviewer can also accept or reject triples marked as unclear in the web frontend. A graph visualisation and Neo4j compatibility are not required but desirable.
 
 **Use of AI.** The client allows us to generate code with AI if it is reviewed and the team understands it and can answer any question about it. The institute provides no AI tools.
