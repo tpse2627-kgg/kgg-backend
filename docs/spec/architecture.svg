@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="570" viewBox="0 0 1180 570" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4a5568"/>
+    </marker>
+    <style>
+      .repo { font-size: 18px; font-weight: 700; fill: #c05621; }
+      .label { font-size: 17px; font-weight: 600; fill: #1a202c; }
+      .sub { font-size: 13px; fill: #4a5568; }
+      .task { font-size: 14px; fill: #1a202c; }
+      .edge { fill: none; stroke: #4a5568; stroke-width: 1.6; marker-end: url(#arrow); marker-start: url(#arrow); }
+      .one { marker-start: none; }
+      .edge-label { font-size: 13px; fill: #4a5568; font-style: italic; }
+      .box { fill: #ffffff; stroke: #c05621; stroke-width: 1.8; }
+    </style>
+  </defs>
+
+  <rect width="1180" height="570" fill="#ffffff"/>
+  <text x="20" y="40" font-size="22" font-weight="700" fill="#1a202c">Knowledge Graph Generator: Architecture</text>
+
+  <!-- Legend -->
+  <rect x="720" y="24" width="26" height="16" rx="8" fill="#f7fafc" stroke="#4a5568"/>
+  <text x="754" y="37" class="sub">role</text>
+  <rect x="820" y="24" width="26" height="16" rx="3" fill="#f3f4f6" stroke="#6b7280"/>
+  <text x="854" y="37" class="sub">existing</text>
+  <rect x="940" y="24" width="26" height="16" rx="3" fill="#fffaf0" stroke="#c05621"/>
+  <text x="974" y="37" class="sub">planned (this project)</text>
+
+  <!-- Existing -->
+  <rect x="630" y="66" width="240" height="74" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="750" y="98" text-anchor="middle" class="label">Client system</text>
+  <text x="750" y="120" text-anchor="middle" class="sub">existing institute backend</text>
+
+  <!-- Planned: three repositories -->
+  <rect x="200" y="190" width="960" height="290" rx="10" fill="#fffaf0" stroke="#c05621" stroke-width="2"/>
+  <text x="220" y="218" font-size="17" font-weight="600" fill="#c05621">Knowledge Graph Generator (planned) · three repositories</text>
+
+  <rect class="box" x="230" y="240" width="220" height="100" rx="6"/>
+  <text x="340" y="272" text-anchor="middle" class="repo">kgg-frontend</text>
+  <text x="340" y="294" text-anchor="middle" class="sub">React web app</text>
+  <text x="340" y="320" text-anchor="middle" class="task">review unclear cases</text>
+
+  <rect class="box" x="640" y="240" width="220" height="100" rx="6"/>
+  <text x="750" y="272" text-anchor="middle" class="repo">kgg-django</text>
+  <text x="750" y="294" text-anchor="middle" class="sub">Django app</text>
+  <text x="750" y="320" text-anchor="middle" class="task">REST API · storage</text>
+
+  <rect class="box" x="920" y="240" width="220" height="100" rx="6"/>
+  <text x="1030" y="272" text-anchor="middle" class="repo">kgg-core</text>
+  <text x="1030" y="294" text-anchor="middle" class="sub">Python package</text>
+  <text x="1030" y="320" text-anchor="middle" class="task">manage · version triples</text>
+
+  <path class="box" d="M640 392 a110 10 0 0 0 220 0 a110 10 0 0 0 -220 0 V448 a110 10 0 0 0 220 0 V392"/>
+  <text x="750" y="426" text-anchor="middle" class="label">Local database</text>
+  <text x="750" y="446" text-anchor="middle" class="sub">graph + versions (LDES)</text>
+
+  <!-- Reviewer -->
+  <rect x="20" y="265" width="140" height="50" rx="25" fill="#f7fafc" stroke="#4a5568" stroke-width="1.5"/>
+  <text x="90" y="295" text-anchor="middle" font-size="15" fill="#1a202c">Reviewer</text>
+
+  <!-- Maintainers -->
+  <rect x="20" y="505" width="140" height="50" rx="25" fill="#f7fafc" stroke="#4a5568" stroke-width="1.5"/>
+  <text x="90" y="535" text-anchor="middle" font-size="15" fill="#1a202c">Maintainers</text>
+
+  <!-- Edges -->
+  <path class="edge" d="M750 142 V238"/>
+  <text x="762" y="172" class="edge-label">REST API: passes data</text>
+
+  <path class="edge one" d="M160 290 H228"/>
+  <path class="edge" d="M452 290 H638"/>
+  <text x="545" y="282" text-anchor="middle" class="edge-label">REST</text>
+  <path class="edge" d="M862 290 H918"/>
+  <text x="890" y="282" text-anchor="middle" class="edge-label">calls</text>
+  <path class="edge" d="M750 342 V380"/>
+
+  <path class="edge one" d="M160 530 H1030 V342" stroke-dasharray="6 4"/>
+  <text x="600" y="522" text-anchor="middle" class="edge-label">administer · operate · integrate · develop further</text>
+</svg>
