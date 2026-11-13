@@ -2,7 +2,7 @@
 
 ## Software License
 
-The software will be published as open source under the MIT License. This means that the entire source code is publicly accessible and may be modified without restriction. The software may be used free of charge for any purpose, including integration into commercial products. The developers assume no liability for damages, errors, or data loss resulting from the use of the software. The original copyright notice of the authors must be retained in all copies or substantial portions of the software.
+We propose to publish the software as open source under the MIT License. The final licence will be agreed with the client. This means that the entire source code is publicly accessible and may be modified without restriction. The software may be used free of charge for any purpose, including integration into commercial products. The developers assume no liability for damages, errors, or data loss resulting from the use of the software. The original copyright notice of the authors must be retained in all copies or substantial portions of the software.
 
 ## Data Confidentiality and Non-Disclosure Agreements
 
